@@ -27,19 +27,19 @@ jobs:
         env:
           GOOS: linux
           GOARCH: amd64
-        run: go build -o dist/rclone-linux-amd64 ./cmd/cli
+        run: go build -o dist/rclone-linux-amd64 .
 
       - name: Build Windows
         env:
           GOOS: windows
           GOARCH: amd64
-        run: go build -o dist/rclone-windows-amd64.exe ./cmd/cli
+        run: go build -o dist/rclone-windows-amd64.exe .
 
       - name: Build macOS
         env:
           GOOS: darwin
           GOARCH: amd64
-        run: go build -o dist/rclone-darwin-amd64 ./cmd/cli
+        run: go build -o dist/rclone-darwin-amd64 .
 
       - name: Update latest release
         uses: softprops/action-gh-release@v2
