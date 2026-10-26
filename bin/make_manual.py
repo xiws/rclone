@@ -97,6 +97,7 @@ docs = [
     "ulozto.md",
     "union.md",
     "webdav.md",
+    "wocloud.md",
     "yandex.md",
     "zoho.md",
 

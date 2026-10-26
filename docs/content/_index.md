@@ -122,6 +122,7 @@ WebDAV or S3, that work out of the box.)
 {{< provider name="Box" home="https://www.box.com/" config="/box/" >}}
 {{< provider name="Ceph" home="http://ceph.com/" config="/s3/#ceph" >}}
 {{< provider name="China Mobile Ecloud Elastic Object Storage (EOS)" home="https://ecloud.10086.cn/home/product-introduction/eos/" config="/s3/#china-mobile-ecloud-eos" >}}
+{{< provider name="China Unicom WoCloud" home="https://pan.wo.cn/" config="/wocloud/" >}}
 {{< provider name="Arvan Cloud Object Storage (AOS)" home="https://www.arvancloud.ir/en/products/cloud-storage" config="/s3/#arvan-cloud" >}}
 {{< provider name="Citrix ShareFile" home="http://sharefile.com/" config="/sharefile/" >}}
 {{< provider name="Clever Cloud Cellar" home="https://www.clever.cloud/product/cellar-object-storage/" config="/s3/#clever-cloud-cellar" >}}

@@ -35,6 +35,7 @@ See the following for detailed instructions for
 - [Amazon S3](/s3/)
 - [Backblaze B2](/b2/)
 - [Box](/box/)
+- [China Unicom WoCloud](/wocloud/)
 - [Chunker](/chunker/) - transparently splits large files for other remotes
 - [Citrix ShareFile](/sharefile/)
 - [Compress](/compress/)

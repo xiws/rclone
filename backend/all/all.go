@@ -70,6 +70,7 @@ import (
 	_ "github.com/rclone/rclone/backend/ulozto"
 	_ "github.com/rclone/rclone/backend/union"
 	_ "github.com/rclone/rclone/backend/webdav"
+	_ "github.com/rclone/rclone/backend/wocloud"
 	_ "github.com/rclone/rclone/backend/yandex"
 	_ "github.com/rclone/rclone/backend/zoho"
 )

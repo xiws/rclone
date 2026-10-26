@@ -1,0 +1,21 @@
+backend: wocloud
+name: China Unicom WoCloud
+tier: Tier 4
+maintainers: External
+features_score: 1
+integration_tests: N/A
+data_integrity: Hash
+performance: Medium
+adoption: New
+docs: Full
+security: Varies
+virtual: false
+remote: 'TestWoCloud:'
+features:
+- CanHaveEmptyDirectories
+- DirCacheFlush
+- Purge
+- SlowHash
+hashes:
+- md5
+precision: 3153600000000000000

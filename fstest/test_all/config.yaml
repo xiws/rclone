@@ -531,6 +531,10 @@ backends:
    fastlist: false
    ignoretests:
      - cmd/gitannex
+ - backend:  "wocloud"
+   remote:   "TestWoCloud:"
+   fastlist: false
+   extratime: 2.0
  - backend:  "cache"
    remote:   "TestCache:"
    fastlist: false
